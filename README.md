@@ -1,5 +1,5 @@
 # philosophy-lib
- Understanding each other, transcending darkness into the light.
+**Understanding each other, transcending darkness into the light.**
 
 This wisdom library trains AI
 
