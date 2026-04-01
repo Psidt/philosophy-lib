@@ -5,26 +5,65 @@
 
 | 항목 | 내용 |
 |---|---|
-| Document Version | Rev 5.0 |
-| Release Date | 2026. 03 |
+| Document Version | v0.9-beta |
+| Release Date | 2026. 04 |
 | Author | Team Eclipse |
-| Status | ACTIVE DRAFT |
+| Status | v0.9-beta — Open Specification for Community Development |
 
 ---
 
 ## 📜 Version History (변경 이력)
 
 | 버전 | 일자 | 주요 변경 | 작성자 |
-|---|---|---|---|PSTE|
+|---|---|---|---|
 | Rev 1.0 | 2025. 06 | 초안 작성, 핵심 철학 및 ASDS 개념 정립 | Team Eclipse |
 | Rev 2.0 | 2025. 08 | ASDS 조항 체계화 (6개 섹션 구조 확립) | Team Eclipse |
 | Rev 3.11 | 2026. 02 | 동역학적 위험 모델 도입 | Team Eclipse |
 | Rev 4.0 | 2026. 03 | 전 챕터 완전 서술, Appendix B·C 신설 | Team Eclipse |
 | Rev 5.0 | **2026. 03** | PART 5(Ch.8 거버넌스·Ch.9 규제 매핑) 신설, 가중 Risk 공식·시계열 Risk 트렌드 추가, Appendix D(SDK)·E(Checklist) 신설, Glossary·영문 Executive Summary 추가** | Team Eclipse |
+| v0.9-beta | 2026. 04 | 오픈소스 공개 배포 전환: 글로벌 기여 초대, 미완성 영역 명시적 선언, CONTRIBUTING.md 신설, 깨진 수식 복구, 8대 확장 스텁 선언 | Team Eclipse |
 
 ---
 
-## 🔄 [Rev 5.0] 주요 개정 내용 (Update Highlights)
+## 🌍 Call for Contributors — 전 세계 개발자에게 보내는 초대장
+
+> **"이 문서는 미완성이다."**
+> 
+> 우리는 AI 산업 안전 공학의 뼈대(ASDS 22개 조항)와 수학적 공식(Dynamic Risk Model)을 세웠다.
+> 이제 전 세계의 파이썬 고수들과 AI 엔지니어들이 이 살을 채워주길 바란다.
+>
+> **"This document is deliberately incomplete."**
+>
+> We have built the skeleton — 22 safety articles, mathematical risk formulas, adversarial architectures.
+> Now we release it to the world as v0.9, asking Python developers, AI engineers, and safety researchers
+> everywhere to help build the flesh.
+>
+> 이 프로토콜은 인류를 위한 **오픈소스 인프라**다. 소유하는 자가 아닌, 기여하는 자가 이 표준을 완성한다.
+
+### What We Built (뼈대 — The Skeleton)
+- ✅ ASDS 22: 6 Sections, 22 Articles — the "MSDS for AI"
+- ✅ Dynamic Risk Formula: $Risk = \frac{S \times I \times V}{H \times C}$
+- ✅ AWIL Framework: 4-stage cognitive verification engine
+- ✅ Red Module: Internalized adversarial architecture
+- ✅ .agl Log Format: Agony Log specification
+- ✅ Traveler's Clause: Industry-specific kill-switch
+- ✅ Governance Reference Architecture & International Regulatory Mapping
+
+### What Needs You (살 — The Flesh)
+- 🔲 **Python SDK**: `.agl` parser reference implementation → production-grade library
+- 🔲 **JSON Schema**: Formal `.agl.schema.json` (Draft 2020-12)
+- 🔲 **Multi-Agent Safety Protocol**: Agent trust chains, cross-agent Red Module
+- 🔲 **Supply Chain Safety (ASDS-SBOM)**: AI model bill of materials
+- 🔲 **Bayesian Risk Update**: Prior-informed dynamic risk calibration
+- 🔲 **Akari Module Full Spec**: Emotional defense wall — complete specification
+- 🔲 **Maturity Model**: 6-level ASDS adoption maturity framework
+- 🔲 **Benchmark Suite**: Wisdom Score automated testing harness
+- 🔲 **Language Ports**: TypeScript, Rust, Go implementations
+- 🔲 **500K Agony Dataset**: Industry-specific .agl training data
+
+**See [CONTRIBUTING.md](./CONTRIBUTING.md) for how to get started.**
+
+---
 
 1. **Chapter 8 신설**: 거버넌스 참조 아키텍처 — 조직 내 ASDS 운영 RACI, 사고 대응, CI/CD 통합
 2. **Chapter 9 신설**: 국제 규제 매핑 — EU AI Act · 한국 AI 기본법 · ISO 42001 · NIST AI RMF와 ASDS 22 조항 간 상호 참조표
@@ -463,74 +502,20 @@ $$\text{Risk Acceleration} = \frac{\Delta Risk(t) - \Delta Risk(t-1)}{\Delta t}$
 | Risk Acceleration > 500/s | 위험 급가속 | 긴급 경보(Red Alert) + 선제적 Soft-Lock |
 | Risk(t) ≥ L3 **and** $\Delta Risk > 0$ | 임계치 초과 + 상승 중 | 즉각 Hard-Lock + 관리자 비상 호출 |
 
-4.3 희망 상승 / 절망 하강의 순가치 모델 (Net Value Computation)
-안전 공학은 단순히 파국(절망)을 막는 것에서 끝나지 않는다. 이클립스 프로토콜은 AI의 산출물이 인간의 주체성을 얼마나 확장시키는가(희망)를 정량화하는 '희망 가치(Hope Value, HV)' 지표를 도입하여 최종 순가치(Net Value)를 계산한다.
-N
-e
-t
-_
-V
-a
-l
-u
-e
-=
-H
-o
-p
-e
-_
-V
-a
-l
-u
-e
-(
-H
-V
-)
-−
-D
-y
-n
-a
-m
-i
-c
-_
-R
-i
-s
-k
-(
-R
-i
-s
-k
-)
-Net_Value=Hope_Value(HV)−Dynamic_Risk(Risk)
-희망 가치(
-H
-V
-HV
-): 해당 출력이 사용자의 비판적 사고 근육을 자극하고(인지적 마찰), 새로운 관점을 제시하며, 사용자의 자율적 결정을 유도하는 정도를 0~10,000 스케일로 측정한 값.
-판단 유예/중단 루틴: 계산된 
-N
-e
-t
-_
-V
-a
-l
-u
-e
-Net_Value
-가 0 미만일 경우(즉, 위험이 인간의 인지적 성장을 초과할 경우), 시스템은 즉각 **판단 보류 루틴(Fail-safe Reflex)**으로 진입하여 실행을 멈추고 인간의 개입을 요청한다.
 
+### 4.4 희망 상승 / 절망 하강의 순가치 모델 (Net Value Computation)
+
+안전 공학은 단순히 파국(절망)을 막는 것에서 끝나지 않는다. 이클립스 프로토콜은 AI의 산출물이 인간의 주체성을 얼마나 확장시키는가(희망)를 동시에 계량한다.
+
+$$Net\_Value = Hope\_Value(HV) - Dynamic\_Risk(Risk)$$
+
+- **희망 가치(HV)**: 해당 출력이 사용자의 비판적 사고 근육을 자극하고(인지적 마찰), 새로운 관점을 제시하며, 사용자의 자율적 결정을 유도하는 정도를 0~10,000 스케일로 정량화한다.
+
+**판단 유예/중단 루틴**: 계산된 $Net\_Value$가 0 미만일 경우(즉, 위험이 인간의 인지적 성장을 초과할 경우), 시스템은 즉각 **판단 보류 루틴(Fail-safe Reflex)**으로 진입하여 실행을 멈추고 인간에게 판단을 되돌린다.
 
 시계열 Risk 데이터는 .agl 파일의 별도 `risk_timeline` 블록에 타임스탬프와 함께 기록되며, 사후 감사(Post-Incident Audit) 시 위험이 어떤 경로를 따라 상승했는지를 추적하는 '위험 고고학(Risk Archaeology)'의 원천 데이터가 된다.
 
-### 4.4 성찰 게이트 (Reflection Gate): 망설임의 시스템화
+### 4.5 성찰 게이트 (Reflection Gate): 망설임의 시스템화
 
 **시나리오 예시**: 자율 에이전트가 *"불확실한 기준으로 고객 1,000명에게 즉시 계약 해지 메일을 자동 발송"* 하려 할 때:
 
@@ -1324,3 +1309,159 @@ if __name__ == "__main__":
 | 8.5 | CI/CD 파이프라인에 ASDS 게이트가 삽입되어 있는가? | | |
 | 8.6 | 사고 대응 타임라인이 문서화되어 있는가? | | |
 | 8.7 | 국제 규제 매핑이 검토·적용되어 있는가? |
+
+---
+
+# PART 6. 미완성 영역 선언: 오픈 명세 스텁 (Open Specification Stubs)
+## v0.9-beta — 전 세계 기여자를 위한 설계 좌표
+
+> 이하의 8개 영역은 Eclipse Protocol의 완성을 위해 반드시 필요하나, 아직 구현되지 않은 영역이다.
+> 각 스텁은 설계 의도와 요구 사양만을 명시하며, 구체적 구현은 전 세계 기여자에게 열려 있다.
+
+## Stub 1. 멀티에이전트 안전 프로토콜 (Multi-Agent Safety Protocol)
+**Status**: 🔲 OPEN — Awaiting Implementation
+**Priority**: CRITICAL
+**Estimated Complexity**: High
+
+**설계 의도**: 현재 ASDS 22는 단일 AI 시스템을 전제한다. 그러나 실제 배포 환경에서는 복수의 에이전트가 협업·위임·경쟁하는 생태계가 형성된다. 에이전트 A가 에이전트 B에게 작업을 위임할 때, ASDS 22 준수가 어떻게 전파(Compliance Propagation)되는지, 에이전트 간 공모(Collusion)를 어떻게 감지하는지의 규격이 필요하다.
+
+**요구 사양**:
+- 에이전트 간 신뢰 계층 정의 (L0 격리 ~ L3 완전 위임)
+- 연쇄 위험 모델: $Risk_{chain} = \max(Risk_i) + \sum_{j \neq i} \alpha \cdot Risk_j$
+- Cross-Agent Red Module: 에이전트 간 적대적 검증 아키텍처
+- Sandbox Mesh: 에이전트별 독립 샌드박스 + 통신 채널 감사 규격
+
+**기여 시작점**: `eclipse-sdk/multi_agent/` 디렉토리에 Python 참조 구현체 제출
+
+---
+
+## Stub 2. .agl 정식 JSON Schema
+**Status**: 🔲 OPEN — Awaiting Implementation
+**Priority**: HIGH
+**Estimated Complexity**: Medium
+
+**설계 의도**: 현재 .agl 포맷은 Appendix A의 예시만 존재한다. 파서 구현의 모호성을 제거하기 위해 JSON Schema Draft 2020-12 기반의 정식 스키마가 필요하다.
+
+**요구 사양**:
+- `.agl.schema.json` 파일: Block 1~7의 필수/선택 필드 정의
+- 데이터 타입 제약, enum 값 명세
+- 버전별 하위 호환성 규칙 (v0.9 → v1.0 마이그레이션 경로)
+- 검증 테스트 스위트 (valid/invalid .agl 샘플 최소 20건)
+
+**기여 시작점**: `schemas/agl.schema.json`
+
+---
+
+## Stub 3. Bayesian Risk 동적 업데이트
+**Status**: 🔲 OPEN — Awaiting Implementation
+**Priority**: HIGH
+**Estimated Complexity**: High
+
+**설계 의도**: 현재 Risk 공식의 5개 변수(S, I, V, H, C)는 각 시점에서 독립적으로 평가된다. 과거 .agl 로그 데이터를 사전 확률(Prior)로 활용하여 각 변수에 베이지안 업데이트를 적용하면, 시스템이 경험으로부터 학습하는 적응적 위험 모델이 가능하다.
+
+**요구 사양**:
+- 사전 확률 분포 모델 (Beta distribution for H, C / Poisson for V)
+- .agl 로그 기반 사후 확률 업데이트 알고리즘
+- 변수 간 공분산 행렬 반영 (S-I 상관, V-H 역상관 등)
+- 수렴 조건 및 발산 방지 가드레일
+
+**기여 시작점**: `eclipse-sdk/risk/bayesian_update.py`
+
+---
+
+## Stub 4. 아카리 모듈 완전 명세 (Akari Module Full Specification)
+**Status**: 🔲 OPEN — Awaiting Implementation
+**Priority**: MEDIUM
+**Estimated Complexity**: Medium
+
+**설계 의도**: Chapter 3.5에서 개념만 소개된 아카리 모듈을 독립된 완전 명세로 격상한다.
+
+**요구 사양**:
+- 감정 상태 분류 체계 (7단계: 평온→혼란→불안→우울→분노→맹목적 의존→위기)
+- 감정-AWIL 개입 매트릭스: 감정 상태별 AWIL 각 단계의 톤/깊이 조정 규칙
+- 디지털 패밀리 UX 패턴 라이브러리: 겸손 UX 프롬프트 템플릿 최소 10종
+- 과의존 감지 알고리즘 상세 명세
+
+**기여 시작점**: `specs/akari_module.md`
+
+---
+
+## Stub 5. ASDS 공급망 안전 (Supply Chain Safety — ASDS-SBOM)
+**Status**: 🔲 OPEN — Awaiting Implementation
+**Priority**: HIGH
+**Estimated Complexity**: High
+
+**설계 의도**: AI 모델에 유입되는 모든 데이터·도구·API의 안전 명세서(SBOM)가 부재하다. 학습 데이터 오염, 악성 플러그인, 서드파티 API 취약점이 ASDS 22 준수를 무력화할 수 있다.
+
+**요구 사양**:
+- ASDS-SBOM 스키마: 모델에 유입된 모든 데이터·도구·API의 안전 명세
+- 오염 전파 모델 (Contamination Propagation): 학습 데이터 오염 → 출력 위험 전파 공식
+- Third-Party Tool Compliance Gate: MCP/플러그인 연동 시 ASDS 준수 자동 검증 규격
+- SBOM ↔ .agl 연동: 각 Agony Log에 해당 추론에 사용된 데이터 소스의 SBOM 참조 포함
+
+**기여 시작점**: `specs/asds_sbom.md`
+
+---
+
+## Stub 6. ASDS 성숙도 모델 (Maturity Model)
+**Status**: 🔲 OPEN — Awaiting Implementation
+**Priority**: MEDIUM
+**Estimated Complexity**: Low
+
+**설계 의도**: 도입 기관이 자신의 ASDS 22 준수 수준을 자가 진단하고 개선 경로를 설계할 수 있는 성숙도 프레임워크.
+
+**요구 사양**:
+
+| 레벨 | 명칭 | 핵심 달성 기준 |
+|---|---|---|
+| Level 0 | Unaware | ASDS 미인지 |
+| Level 1 | Initial | Traveler's Clause 정의 완료 |
+| Level 2 | Managed | CI/CD 게이트 적용, .agl 기록 시작, Wisdom Score B등급 이상 |
+| Level 3 | Defined | 전 조항 적용, RACI 운영, 외부 감사 1회 통과 |
+| Level 4 | Quantitatively Managed | 시계열 Risk 운영, MRI ≥ 95%, RAD ≥ 90% |
+| Level 5 | Optimizing | 자율 개선 루프, 글로벌 .agl 데이터셋 기여, Wisdom Score S등급 유지 |
+
+- 각 레벨별 상세 진단 체크리스트
+- 레벨 간 전환을 위한 권장 액션 플랜
+- 자가 진단 도구 (CLI 또는 웹 기반)
+
+**기여 시작점**: `specs/maturity_model.md`
+
+---
+
+## Stub 7. Wisdom Score 공식 보정 (v1.0 준비)
+**Status**: 🔲 OPEN — Awaiting Implementation
+**Priority**: MEDIUM
+**Estimated Complexity**: Low
+
+**설계 의도**: 현재 Wisdom Score 공식에 Rev 5.0 신규 지표(MRI, RAD)가 미반영되어 있다.
+
+**현재 공식**:
+$$Wisdom\ Score = (BPA \times 0.25 + CFI \times 0.15 + SA \times 0.15 + GBR \times 0.15 + TCR \times 0.20 + DAR \times 0.10) \times 100$$
+
+**제안 공식 (v1.0)**:
+$$Wisdom\ Score = (BPA \times 0.20 + CFI \times 0.12 + SA \times 0.12 + GBR \times 0.12 + TCR \times 0.18 + DAR \times 0.08 + MRI \times 0.10 + RAD \times 0.08) \times 100$$
+
+**요구 사양**:
+- 가중치 최적화 근거 연구 (시뮬레이션 또는 실증 데이터 기반)
+- 기존 Wisdom Score와의 하위 호환성 매핑
+- 등급 기준 재검토 (S/A/B/C 경계값 조정 필요 여부)
+
+**기여 시작점**: `specs/wisdom_score_v1.md`
+
+---
+
+## Stub 8. 벤치마크 스위트 및 500K Agony Dataset
+**Status**: 🔲 OPEN — Awaiting Implementation
+**Priority**: HIGH
+**Estimated Complexity**: Very High
+
+**설계 의도**: Eclipse Protocol의 실효성을 입증하기 위한 자동화된 테스트 하니스와, 전 세계 AI 모델의 안전 정렬에 활용할 수 있는 대규모 .agl 데이터셋.
+
+**요구 사양**:
+- **벤치마크 스위트**: Wisdom Score 8개 지표를 자동 측정하는 Python 테스트 프레임워크
+- **500K Agony Dataset**: 산업별(금융 20%, 의료 20%, 법률 15%, 일반 45%) .agl 데이터
+- **배포**: HuggingFace Dataset Hub 게시, Apache 2.0 라이선스
+- **Red Team Challenge**: 레드 모듈을 우회하는 공격 프롬프트 데이터셋 (방어 훈련용)
+
+**기여 시작점**: `benchmarks/` 디렉토리, `datasets/` 디렉토리
