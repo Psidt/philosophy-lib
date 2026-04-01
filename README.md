@@ -77,17 +77,20 @@ We propose **ASDS 22 (AI Safety Data Sheet)** — 22 mandatory safety articles a
 ## 📁 Repository Structure
 
 ```
-philosophy-lib/
+Team-Eclipse-AI-Safety-white-paper/
 ├── Eclipse-Protocol-Open-Standard.md   # 📄 The White Paper (v0.9-beta)
 ├── CONTRIBUTING.md                      # 🤝 How to contribute
 ├── README.md                            # 📍 You are here
-├── DATA/                                # 📊 Training data (JSONL format)
-├── Overview/                            # 📋 Guides, FAQs, timelines
-├── specs/                               # 📐 Specification documents (NEW)
-├── schemas/                             # 📑 JSON Schemas (NEW)
-├── eclipse-sdk/                         # 🐍 Python SDK (NEW)
-├── benchmarks/                          # 🧪 Test suites (NEW)
-└── datasets/                            # 📦 .agl datasets (NEW)
+├── LICENSE                              # 📜 CC BY 4.0
+├── eclipse-archive/                     # 🗂️ Historical records & source conversations
+│   ├── DATA/                            # 📊 Training data (JSONL format)
+│   ├── Overview/                        # 📋 Guides, FAQs, timelines
+│   └── 원본대화-talks/                  # 💬 Original source conversations
+├── specs/                               # 📐 Specification documents (stub)
+├── schemas/                             # 📑 JSON Schemas (stub)
+├── eclipse-sdk/                         # 🐍 Python SDK (stub)
+├── benchmarks/                          # 🧪 Test suites (stub)
+└── datasets/                            # 📦 .agl datasets (stub)
 ```
 
 ---
