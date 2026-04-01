@@ -1,4 +1,4 @@
-# 🌌 Eclipse Protocol — philosophy-lib
+# 🌌 Eclipse Protocol
 
 ### **Understanding each other, transcending darkness into the light.**
 
