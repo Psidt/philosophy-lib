@@ -1,9 +1,8 @@
 # 🤝 Contributing to Eclipse Protocol
 ## 이클립스 프로토콜에 기여하기
 
-> **"이 프로토콜은 인류를 위한 오픈소스 인프라다. 소유하는 자가 아닌, 기여하는 자가 이 표준을 완성한다."**
-> 
-> *"This protocol is open-source infrastructure for humanity. It is completed not by those who own it, but by those who contribute to it."*
+### "Welcome to Team Eclipse — Empowering Humanity through AI Safety."
+우리는 인류의 안전을 위해 모였습니다. 당신의 지혜를 더해 팀 이클립스의 코덱스를 완성해 주세요.
 
 ---
 
