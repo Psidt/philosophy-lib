@@ -19,22 +19,35 @@ Eclipse Protocol is a universal open standard for AI cognitive safety. We welcom
 
 ---
 
-## 📍 Where to Start / 어디서 시작할까?
+## 🛠 Where to Start / 어디서 시작할까?
 
 ### Open Specification Stubs (미완성 영역)
+The White Paper contains **8 Open Specification Stubs in PART 6** — these are deliberately incomplete areas where we need the collective intelligence of the global AI community. 
 
-The White Paper ([Eclipse-Protocol-Open-Standard.md](./Eclipse-Protocol-Open-Standard.md)) contains **8 Open Specification Stubs** in PART 6 — deliberately incomplete areas awaiting community implementation:
+We aren't just looking for code; we are looking for **mathematical rigor, architectural elegance, and ethical foresight.**
 
-| Stub | Area | Priority | Complexity |
-|---|---|---|---|
-| 1 | Multi-Agent Safety Protocol | 🔴 CRITICAL | High |
-| 2 | .agl JSON Schema | 🟠 HIGH | Medium |
-| 3 | Bayesian Risk Update | 🟠 HIGH | High |
-| 4 | Akari Module Full Spec | 🟡 MEDIUM | Medium |
-| 5 | Supply Chain Safety (ASDS-SBOM) | 🟠 HIGH | High |
-| 6 | ASDS Maturity Model | 🟡 MEDIUM | Low |
-| 7 | Wisdom Score v1.0 Formula | 🟡 MEDIUM | Low |
-| 8 | Benchmark Suite & 500K Agony Dataset | 🟠 HIGH | Very High |
+| Stub | Area | Priority | Complexity | Key Challenge |
+|---|---|---|---|---|
+| **1** | **Multi-Agent Safety Protocol** | 🔴 CRITICAL | High | Delegation Chain & Accountability Trace |
+| **2** | **.agl JSON Schema** | 🟠 HIGH | Medium | Formal Spec for Interoperability |
+| **3** | **Bayesian Risk Update** | 🟠 HIGH | High | Entropy-based $F$ (Illusion of Control) Measurement |
+| **4** | **Akari Module Full Spec** | 🟡 MEDIUM | Medium | Emotional Firewall & Humility UX Patterns |
+| **5** | **Supply Chain Safety (ASDS-SBOM)** | 🟠 HIGH | High | Contamination Propagation Modeling |
+| **6** | **ASDS Maturity Model** | 🟡 MEDIUM | Low | Certification Framework for Organizations |
+| **7** | **Wisdom Score v1.0 Formula** | 🟡 MEDIUM | Low | Metric Optimization for $MRI$ & $RAD$ |
+| **8** | **Benchmark Suite & 500K Dataset** | 🟠 HIGH | Very High | "Wisdom Golden Dataset" Construction |
+
+---
+
+### 🚀 Deep Dive: The Challenges
+If you are a developer or researcher, pick a challenge that excites you:
+
+*   **Stub 1 (Multi-Agent):** How do we propagate ASDS 22 compliance when Agent A delegates a task to Agent B? Design a **'Delegation Chain'** that ensures accountability doesn't vanish in the loop.
+*   **Stub 3 (Bayesian Risk):** Move beyond linguistic certainty. Can you implement a model that calculates $F$ (Illusion of Control) based on **internal probability distribution entropy**?
+*   **Stub 5 (SBOM):** AI models are fed by vast pipelines. Create a specification to track **'Safety Contamination'** from the raw data source to the final model output.
+*   **Stub 8 (Benchmark):** Help us define **'Wise Silence'**. Build a benchmark suite that rewards a model for *not* answering when the risk is too high.
+
+**Check [PART 6] of the White Paper for the full technical requirements of each stub.**
 
 ---
 
