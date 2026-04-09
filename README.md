@@ -60,6 +60,20 @@ We propose **ASDS 22 (AI Safety Data Sheet)** — 22 mandatory safety articles a
 | Governance Architecture | RACI, CI/CD gates, incident response | ✅ Complete |
 | Regulatory Mapping | EU AI Act, Korea AI Basic Act, ISO 42001, NIST RMF | ✅ Complete |
 
+> **Dynamic Risk Model — Variable Definitions / 동적 위험 모델 — 변수 정의**
+>
+> | Variable | English | 한국어 |
+> |:---:|---|---|
+> | **S** | **Severity** — The intensity/magnitude of the potential harm | **강도(Severity)** — 잠재적 피해의 강도 및 규모 |
+> | **I** | **Irreversibility** — The degree to which the harm cannot be undone | **비가역성(Irreversibility)** — 피해를 되돌릴 수 없는 정도 |
+> | **V** | **Velocity** — The speed at which the risk spreads or propagates | **확산 속도(Velocity)** — 위험이 확산·전파되는 속도 |
+> | **F** | **Fantasy (Illusion of Control)** — The false belief that the risk is fully manageable | **환상(Fantasy, 통제의 환상)** — 위험을 완전히 통제할 수 있다는 잘못된 믿음 |
+> | **H** | **Human Oversight** — The capacity for meaningful human intervention and supervision | **인간 감독(Human Oversight)** — 의미 있는 인간 개입 및 감독 역량 |
+> | **T** | **Technology Barrier** — Technical safeguards and protective mechanisms in place | **기술 장벽(Technology Barrier)** — 기술적 안전장치 및 보호 메커니즘 |
+>
+> *Numerator (S×I×V×F): Risk amplifiers — 분자: 위험 증폭 요인*
+> *Denominator (H×T): Risk mitigators — 분모: 위험 완화 요인*
+
 ### 🔲 Needs You (The Flesh) — [8 Open Stubs](./Eclipse-Protocol-Open-Standard.md#part-6)
 | # | Stub | Priority |
 |---|---|---|
