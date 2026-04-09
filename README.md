@@ -124,7 +124,5 @@ We welcome contributions from Python developers, AI engineers, safety researcher
 
 ## 📜 License
 
-This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
-
-Copyright © Team Eclipse
-
+This project (including eclipse-sdk, schemas, and specs) is licensed under the **Apache License 2.0**.
+Copyright © 2026 **Team Eclipse**. All rights reserved.
