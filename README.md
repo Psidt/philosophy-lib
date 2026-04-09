@@ -10,9 +10,9 @@
 
 ## 🔭 What is Eclipse Protocol?
 
-Eclipse Protocol is an **open specification** for AI safety that treats AI risk not as a software bug, but as a **biological mutation** — compounding unpredictably through environmental interaction.
+Eclipse Protocol is an **open specification** for AI safety that treats AI risk not as a software bug, but as a **biological mutation** — compounding unpredictably through environmental interaction and systemic feedback loops.
 
-We propose **ASDS 22 (AI Safety Data Sheet)** — 22 mandatory safety articles across 6 sections — as the "MSDS for AI." Just as chemical substances require Material Safety Data Sheets, every AI model should carry its own safety specification.
+We propose **ASDS 22 (AI Safety Data Sheet)** — 22 mandatory safety articles across 6 sections — as the "MSDS for AI." Just as chemical substances require Material Safety Data Sheets, every AI system deserves a standardized safety profile.
 
 **📄 [Read the White Paper →](./Eclipse-Protocol-Open-Standard.md)**
 
@@ -28,7 +28,7 @@ We propose **ASDS 22 (AI Safety Data Sheet)** — 22 mandatory safety articles a
 │  ┌────────────┐  ┌────────────┐  ┌────────────┐ │
 │  │  ASDS 22   │  │    AWIL    │  │    Risk     │ │
 │  │ 22 Safety  │  │  4-Stage   │  │  Formula    │ │
-│  │ Articles   │  │  Thinking  │  │ S×I×VxF/H×T  │ │
+│  │ Articles   │  │  Thinking  │  │ S×I×V×F/H×T│ │
 │  └────────────┘  └────────────┘  └────────────┘ │
 │                                                  │
 │  ┌────────────┐  ┌────────────┐  ┌────────────┐ │
@@ -38,8 +38,8 @@ We propose **ASDS 22 (AI Safety Data Sheet)** — 22 mandatory safety articles a
 │  └────────────┘  └────────────┘  └────────────┘ │
 │                                                  │
 │  ┌──────────────────────────────────────────┐    │
-│  │         .agl (Agony Log) Format          │    │
-│  │   Auditable record of AI deliberation    │    │
+│         .agl (Agony Log) Format          │    │
+│   Auditable record of AI deliberation    │    │
 │  └──────────────────────────────────────────┘    │
 └──────────────────────────────────────────────────┘
 ```
@@ -52,7 +52,7 @@ We propose **ASDS 22 (AI Safety Data Sheet)** — 22 mandatory safety articles a
 | Component | Description | Status |
 |---|---|---|
 | ASDS 22 | 6 Sections, 22 Safety Articles | ✅ Complete |
-| Dynamic Risk Model | $Risk = \frac{S \times I \times V}{H \times C}$ | ✅ Complete |
+| Dynamic Risk Model | $Risk = \frac{S \times I \times V \times F}{H \times T}$ | ✅ Complete |
 | AWIL Framework | Ask–What–If–Like cognitive verification | ✅ Complete |
 | Red Module | Internalized adversarial engine | ✅ Complete |
 | .agl Format | Agony Log specification + examples | ✅ Complete |
