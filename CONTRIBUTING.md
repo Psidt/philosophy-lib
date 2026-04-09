@@ -87,9 +87,9 @@ git checkout -b stub/your-contribution-name
 
 ## 📜 License
 
-All contributions are published under [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+All contributions are published under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
 
-By submitting a PR, you agree that your contribution will be licensed under CC BY 4.0.
+By submitting a PR, you agree that your contribution will be licensed under Apache 2.0.
 
 ---
 

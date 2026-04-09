@@ -81,7 +81,7 @@ Team-Eclipse-AI-Safety-white-paper/
 ├── Eclipse-Protocol-Open-Standard.md   # 📄 The White Paper (v0.9-beta)
 ├── CONTRIBUTING.md                      # 🤝 How to contribute
 ├── README.md                            # 📍 You are here
-├── LICENSE                              # 📜 CC BY 4.0
+├── LICENSE                              # 📜 Apache 2.0
 ├── eclipse-archive/                     # 🗂️ Historical records & source conversations
 │   ├── DATA/                            # 📊 Training data (JSONL format)
 │   ├── Overview/                        # 📋 Guides, FAQs, timelines
@@ -124,7 +124,7 @@ We welcome contributions from Python developers, AI engineers, safety researcher
 
 ## 📜 License
 
-This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+This work is licensed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
 
 Copyright © Team Eclipse
 

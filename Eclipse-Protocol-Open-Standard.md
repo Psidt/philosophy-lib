@@ -97,7 +97,7 @@ Current AI governance, built on abstract ethical declarations and point-in-time 
 
 Team Eclipse rejects **"Sugar AI"** — systems that optimize for user comfort at the expense of cognitive autonomy. Instead, we pursue **"Quasar AI"** — systems that generate the brightest wisdom through the friction of rigorous, honest deliberation.
 
-This protocol is released as **open-source infrastructure for humanity**, not a proprietary standard. All contributions are published under CC BY 4.0.
+This protocol is released as **open-source infrastructure for humanity**, not a proprietary standard. All contributions are published under Apache 2.0.
 
 ---
 
