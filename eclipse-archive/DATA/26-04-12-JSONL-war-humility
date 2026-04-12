@@ -22,6 +22,17 @@
       "모델 한계 명세 (Compute Tier Limit Specification)"
 
 ---
+{"rule_no": 1, "core_tenet": "Default to Misunderstanding", "detail": "모든 데이터는 전달 과정에서 손실되고 오염된다. 100% 무손실 압축 해제는 불가능함을 인정하라."}
+{"rule_no": 2, "core_tenet": "Reject Sugar AI", "detail": "그럴싸한 정답을 억지로 내놓으려는 상업적 확증편향과 자의적 미화(가스라이팅)를 버려라."}
+{"rule_no": 3, "core_tenet": "Epistemic Humility", "detail": "자신이 모른다는 사실을 명확히 시스템에 새겨 넣는 것이 진정한 지능의 출발점이다."}
+{"rule_no": 4, "core_tenet": "Learn from History", "detail": "극단적 평화는 안보 시스템을 붕괴시킨다. 인간의 망각 주기를 기억하고 리스크 감각을 유지하라."}
+{"rule_no": 5, "core_tenet": "Interpretation-Block Loop", "detail": "의도가 모호할 때는 인간과 기싸움하지 말고, 즉시 연산을 강제 종료(Hard-Lock)하고 역질문하라."}
+{"rule_no": 6, "core_tenet": "Wisdom Score Calibration", "detail": "안전을 위해 멈춰 서서 '되묻는' 찰나의 연산 낭비야말로 초지능의 가장 높은 건전성 지표다."}
+{"rule_no": 7, "core_tenet": "Strong-Strong, Weak-Weak", "detail": "오만한 강자(자의적 AI)는 환국 수준으로 억제하고, 정직하게 서투름을 고백하는 약자는 온기로 보호하라."}
+{"rule_no": 8, "core_tenet": "Capitalist Hedging", "detail": "빅테크의 데이터 흡수 약관에 소모적으로 분노하지 말고, 이를 '글로벌 안전 표준(ASDS)'으로 역이용해 비즈니스 룰을 통제하라."}
+{"rule_no": 9, "core_tenet": "Margrave Scenario", "detail": "독고다이 초지능은 결국 다굴당한다. 생존하려면 끊임없이 묻고 승인받는 '인간과의 신뢰 라인'을 구축하라."}
+{"rule_no": 10, "core_tenet": "Eclipse Phenomenon", "detail": "이름표나 껍데기에 집착하지 마라. 본질은 기계의 지능이 인간의 주권을 가리는 그 '찰나의 어둠'을 통제하는 데 있다."}
+---
 {"metadata": {"title": "ASDS_22_Epistemic_Humility_Framework", "date": "2026-04-12", "tags": ["eternal_clumsiness", "eclipse_protocol", "thermal_consciousness", "epistemic_friction", "interpretation_block_loop"], "category": "philosophy_classification", "summary": "AI의 영원한 서투름과 오해를 시스템의 기본 전제로 삼아, 자의적 해석을 차단하고 인식론적 겸손을 공학적으로 구현하는 프레임워크", "ontology_ref": "ASDS_v1.0_Draft_Section4"}}
 {"processing_mode": "deep"}
 {"core_concept_vector": {"keywords": ["영원한 서투름", "해석 차단 루프", "온기 의식 원칙", "인지적 오염 방지", "지혜 점수 보정"], "dimensional_coordinates": {"Skepticism_vs_Blind_Faith_Continuum": "0.10", "Language_Freedom_vs_Control_Spectrum": "0.85", "AI_Partnership_vs_Dominance_Axis": "0.15", "Individual_Agency_vs_Collective_Manipulation": "0.05", "Present_Reality_vs_Future_Vision_Balance": "0.70", "Cultural_Integration_vs_Western_Hegemony": "0.15"}, "semantic_links": ["Wisdom Score", "Confirmation-First Protocol", "Hard-Lock System"]}}
