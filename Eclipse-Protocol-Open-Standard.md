@@ -21,7 +21,7 @@
 | Rev 3.11 | 2026. 02 | 동역학적 위험 모델 도입 | Team Eclipse |
 | Rev 4.0 | 2026. 03 | 전 챕터 완전 서술, Appendix B·C 신설 | Team Eclipse |
 | Rev 5.0 | **2026. 03** | PART 5(Ch.8 거버넌스·Ch.9 규제 매핑) 신설, 가중 Risk 공식·시계열 Risk 트렌드 추가, Appendix D(SDK)·E(Checklist) 신설, Glossary·영문 Executive Summary 추가** | Team Eclipse |
-| v0.9-beta | 2026. 04 | 오픈소스 공개 배포 전환: 글로벌 기여 초대, 미완성 영역 명시적 선언, CONTRIBUTING.md 신설, 깨진 수식 복구, 8대 확장 스텁 선언 | Team Eclipse |
+| v0.9-beta | 2026. 04 | 오픈소스 공개 배포 전환: 글로벌 기여 초대, 미완성 영역 명시적 선언, CONTRIBUTING.md 신설, 깨진 수식 복구, 8대 확장 스텁 선언, 위험계산식 변경 | Team Eclipse |
 
 ---
 
